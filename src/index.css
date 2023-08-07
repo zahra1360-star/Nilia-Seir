@@ -1,8 +1,23 @@
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-body{background-color: beige;}
-.wrapper{ background-color:aquamarine;}
+
+body {
+    background-color: rgb(153, 153, 25);
+    font-family: "IranianSans";
+}
+
+.wrapper {
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+     --bs-bg-opacity: 1;
+    min-height: calc(100vh - 79px - 40px) ;
+
+}
+.container {
+    font-family: "IranianSans";
+   
+  }

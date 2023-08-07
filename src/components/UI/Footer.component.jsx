@@ -1,10 +1,11 @@
 import React from 'react';
+import './footer.css'
 
 const FooterComponent = () => {
     return (
-        <div>
-            <h4> Footer Component</h4>
-        </div>
+        <footer className='footer'>
+           <span>کلیه حقوق این وبسایت محفوظ و متعلق به آژانس نیلیا سیر است.</span>
+        </footer>
     );
 };
 

@@ -1,0 +1,19 @@
+
+
+
+.navbar-expand-lg .navbar-collapse
+{float: right !important;
+}   
+.nav-item{
+    font-family: "IranianSans";
+    font-size: 12px !important;
+    font-weight: bold;
+    padding-right: 20px;
+
+    
+}
+
+.borer-line{
+    border-bottom: 1px  ;
+    border-color: black;
+}

@@ -1,5 +1,6 @@
 
 import './App.css';
+import './assets/fonts/IranianSans.ttf'
 import NavbarComponent from './components/UI/Navbar.component';
 import FooterComponent from './components/UI/Footer.component';
 import { Routes, Route } from 'react-router-dom';
