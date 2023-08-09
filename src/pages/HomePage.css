@@ -1,29 +1,80 @@
 .d-rounded-30 {
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
-.searchTab {
-    box-shadow: inset 0 -15px 20px -10px #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
 
-.coback {
-    position: absolute;
-    z-index: 0;
-}
+
+
 
 .coTitle {
-  
-    
-    right: 9rem;
-    z-index: 1;
-    height: 80%;
+
+    display: inline-block;
     position: absolute;
-    top: 13.25rem;
-    width: 80%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    top: 13rem;
+    text-align: right;
+
+}
+
+.title {
+    color: #023d64;
+    font-weight: bolder;
+    font-family: "IranianSans";
+
+}
+
+.coTitle2 {
+
+    position: absolute;
+    top: 12rem;
+    text-align: right;
+    font: size 15px;
+
+}
+
+.coTitle3 {
+    position: absolute;
+    top: 20rem;
+    text-align: right;
+    font: size 11px;
+}
+
+.form-check .form-check-input {
+    float: none !important;
+    margin-left: -3.5em;
+    border: var(--bs-border-width) solid #212222;
+}
+
+.form-check-label {
+    color: rgb(0, 0, 0) !important;
+    padding-left: 10px;
+    font-size:x-small;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 5rem !important;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 0 !important;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-item {
+    font-family: "IranianSans";
+    font-size: 12px !important;
+    font-weight: bold;
+    padding-right: 0px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+   
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    opacity: 0.75;
+   
+   
+}
+.nav-link { color:black !important;}
+
+.form-check {
+   
+    margin-bottom: 0rem !important;
 }

@@ -12,7 +12,7 @@ const NavbarComponent = () => {
         btnToggleRef.current.click();
     }
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary  border-bottom ">
             <div className="container-fluid">
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">

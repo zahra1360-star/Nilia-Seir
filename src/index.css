@@ -14,7 +14,7 @@ body {
 .wrapper {
     background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
      --bs-bg-opacity: 1;
-    min-height: calc(100vh - 79px - 40px) ;
+    min-height: calc(100vh - 79px - 40px ) ;
 
 }
 .container {
