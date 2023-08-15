@@ -78,3 +78,8 @@
    
     margin-bottom: 0rem !important;
 }
+.form-select-sm {
+    text-align: right;
+}
+.col-form-label{font-size: 12px  !important;
+font-weight: bold;}

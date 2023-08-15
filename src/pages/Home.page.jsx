@@ -2,6 +2,11 @@ import React from 'react';
 import homeImg from '../assets/images/home2.png';
 import './HomePage.css';
 
+import 'react-datepicker/dist/react-datepicker.css'
+import DateTest from '../components/DateTest';
+
+
+
 
 
 const HomePage = () => {
@@ -47,27 +52,72 @@ const HomePage = () => {
 
                         </ul>
                     </div>
-                    <div className="row border-bottom">
-                    <div class="form-check bg-light opacity-75">
+                    <div className="row justify-content-end bg-light  opacity-75 border-bottom">
+                        <div class="form-check m-2 col-md-2">
                             <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
                             <label className="form-check-label" for="flexRadioDefault1">
                                 یکطرفه
                             </label>
                         </div>
-                        <div className="form-check bg-light opacity-75">
+                        <div className="form-check m-2 col-md-2">
                             <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
                             <label className="form-check-label" for="flexRadioDefault2">
                                 رفت و برگشت
                             </label>
                         </div>
                     </div>
-                    </div>
-</div>
 
+                    
+                    <div className="row justify-content-end bg-light opacity-75 p-3">
+                
+                    <div class="col-4">
+                           <DateTest />
+
+                        </div>
+                        <div className="col-md-1 p-0">
+                        <h6>تاریخ</h6>
+                        </div>
+
+                        {/* <div class="col-3">
+                          <DateTest />
+
+                        </div> */}
+                        
+
+
+                        <div className="form-check col-md-3">
+                            <select class="form-select form-select-sm" aria-label="Small select example">
+                                <option selected>مقصد</option>
+                                <option value="1">تهران</option>
+                                <option value="2">مشهد</option>
+                                <option value="3">تبریز</option>
+                            </select>
+                        </div>
+                        <div className="col-md-1"><i class="bi bi-arrow-left-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z" />
+                            </svg></i>
+                        </div>
+                        <div className="form-check col-md-3">
+                            <select class="form-select form-select-sm" aria-label="Small select example">
+                                <option selected>مبدا</option>
+                                <option value="1">تهران</option>
+                                <option value="2">مشهد</option>
+                                <option value="3">تبریز</option>
+                            </select>
+                        </div>
+
+                    </div>
 
                 </div>
+            </div>
 
-        
+
+
+        </div>
+
+
 
 
 

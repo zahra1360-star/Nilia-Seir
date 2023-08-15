@@ -7,8 +7,12 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from "../src/pages/Home.page";
 import LoginPage from '../src/pages/Login.page'
 import ContactUsPage from './pages/ContactUs.page';
+// import  { useState } from "react";
+// import DatePicker from "react-datepicker";
 
 function App() {
+
+  // const [date, setDate] = useState(new Date());
   return (
     <div >
       {/* Navbar */}
@@ -21,6 +25,9 @@ function App() {
           <Route path="/contac-us" element={<ContactUsPage />} />
 
         </Routes>
+        <div>
+    {/* <DatePicker selected={date} onChange={(date) => setDate(date)} /> */}
+    </div>
       </div>
       {/* Footer */}
       <FooterComponent />
