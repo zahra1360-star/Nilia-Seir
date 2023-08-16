@@ -3,14 +3,19 @@ import homeImg from '../assets/images/home2.png';
 import './HomePage.css';
 
 import 'react-datepicker/dist/react-datepicker.css'
-import DateTest from '../components/DateTest';
+import DateReturn from '../components/DateReturn';
+import RR from '../components/radioBox';
+import DateOneway from '../components/DateOneway';
 
 
 
 
 
 const HomePage = () => {
+   
+
     return (
+       
         <div className="container" >
 
 
@@ -52,37 +57,33 @@ const HomePage = () => {
 
                         </ul>
                     </div>
-                    <div className="row justify-content-end bg-light  opacity-75 border-bottom">
-                        <div class="form-check m-2 col-md-2">
-                            <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                            <label className="form-check-label" for="flexRadioDefault1">
-                                یکطرفه
-                            </label>
+                    <div className="row justify-content-end bg-light opacity-75 border-bottom">
+                        <div className="form-check-label m-3 col-md-3">
+                            
+                            < RR />
                         </div>
-                        <div className="form-check m-2 col-md-2">
-                            <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
-                            <label className="form-check-label" for="flexRadioDefault2">
-                                رفت و برگشت
-                            </label>
-                        </div>
+
                     </div>
 
-                    
+
                     <div className="row justify-content-end bg-light opacity-75 p-3">
-                
-                    <div class="col-4">
-                           <DateTest />
+
+                        <div id="DateReturn"  className="col-4">
+                            <DateReturn />
+                      
+                        
+                        </div>
+                        <div id="DateOneway" className="col-4">
+                          
+                            <DateOneway />
 
                         </div>
                         <div className="col-md-1 p-0">
-                        <h6>تاریخ</h6>
+                            <h6>تاریخ</h6>
                         </div>
 
-                        {/* <div class="col-3">
-                          <DateTest />
+                    
 
-                        </div> */}
-                        
 
 
                         <div className="form-check col-md-3">
@@ -123,6 +124,7 @@ const HomePage = () => {
 
 
     );
+   
 };
 
 export default HomePage;

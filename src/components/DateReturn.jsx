@@ -2,7 +2,7 @@ import React from 'react';
 import  { useState } from "react";
 import DatePicker from "react-datepicker";
 
-const DateTest = () => {
+const DateReturn = () => {
     const [startDate, setStartDate] = useState(new Date("2014/02/08"));
     const [endDate, setEndDate] = useState(new Date("2014/02/10"));
     return (
@@ -29,4 +29,4 @@ const DateTest = () => {
     );
 };
 
-export default DateTest;
+export default DateReturn;
